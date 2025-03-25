@@ -1,0 +1,18 @@
+{
+    "dashboard_title": "Dashboard del Clima",
+    "summary": {
+      "intro": "Hoy en {{city}} la temperatura media es de {{temp}}°C, el cielo estará {{sky}} y {{rain}}"
+    },
+    "sky": {
+      "clear": "despejado ☀️",
+      "partly": "parcialmente nublado 🌤️",
+      "cloudy": "nublado ☁️",
+      "very": "muy nublado 🌫️"
+    },
+    "rain": {
+      "none": "no se esperan lluvias.",
+      "light": "se esperan lluvias ligeras ☔.",
+      "heavy": "se esperan lluvias intensas 🌧️."
+    }
+  }
+  

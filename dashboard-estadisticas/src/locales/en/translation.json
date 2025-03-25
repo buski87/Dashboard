@@ -1,0 +1,18 @@
+{
+    "dashboard_title": "Weather Dashboard",
+    "summary": {
+      "intro": "Today in {{city}} the average temperature is {{temp}}°C, the sky will be {{sky}} and {{rain}}"
+    },
+    "sky": {
+      "clear": "clear ☀️",
+      "partly": "partly cloudy 🌤️",
+      "cloudy": "cloudy ☁️",
+      "very": "very cloudy 🌫️"
+    },
+    "rain": {
+      "none": "no rain is expected.",
+      "light": "light rain is expected ☔.",
+      "heavy": "heavy rain is expected 🌧️."
+    }
+  }
+  

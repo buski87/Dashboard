@@ -1,4 +1,5 @@
 import Sidebar from "./Sidebar";
+import LanguageSelector from "./LanguageSelector"; // 👈 Importa el selector
 
 const Layout = ({ children, sidebarProps }) => {
   return (
@@ -6,12 +7,17 @@ const Layout = ({ children, sidebarProps }) => {
       <Sidebar {...sidebarProps} />
 
       <div className="flex-1 flex flex-col">
-        {/* Header */}
+        {/* Header con el título y el selector */}
         <header className="bg-white dark:bg-gray-900 shadow p-4 border-b border-gray-200 dark:border-gray-700">
-          <h1 className="text-2xl font-bold text-gray-800 dark:text-white">🌤️ Dashboard del Clima</h1>
+          <div className="flex items-center justify-between">
+            <h1 className="text-2xl font-bold text-gray-800 dark:text-white">
+              🌤️ Dashboard del Clima
+            </h1>
+            <LanguageSelector />
+          </div>
         </header>
 
-        {/* Main content */}
+        {/* Contenido principal */}
         <main className="flex-1 p-6 overflow-y-auto">{children}</main>
       </div>
     </div>
