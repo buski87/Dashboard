@@ -11,6 +11,7 @@ import {
 } from "./services/api";
 import { cities } from "./data/cities";
 import { DashboardContext } from "./context/DashboardContext";
+import WeatherSummary from "./components/WeatherSummary";
 
 function App() {
   const {
@@ -91,6 +92,12 @@ function App() {
 
         {hasData && (
           <>
+          <WeatherSummary
+            city={selectedCity}
+            tempAvg={getStats(applyRange(temps)).avg}
+            precipSum={getStats(applyRange(precip)).sum}
+            cloudsAvg={getStats(applyRange(clouds)).avg}
+          />
             {/* Estadísticas */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
               <StatsCard
