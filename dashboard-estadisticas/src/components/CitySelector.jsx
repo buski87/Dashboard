@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { cities } from "../data/cities"; // Asegúrate de importar correctamente
+import { cities } from "../data/cities"; 
 
 const CitySelector = ({ selectedCity, onChange }) => {
   const { t } = useTranslation();

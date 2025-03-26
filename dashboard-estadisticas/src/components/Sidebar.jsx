@@ -59,7 +59,7 @@ const Sidebar = ({ labels, temps, precip, wind, clouds }) => {
   };
 
   return (
-    <aside className="w-72 bg-white dark:bg-gray-900 h-screen p-6 border-r border-gray-200 dark:border-gray-700 space-y-6 overflow-y-auto">
+    <aside className="w-full md:w-64 h-full md:h-auto p-4 md:p-6 space-y-6 overflow-y-auto">
       <div className="space-y-4">
         <CitySelector selectedCity={selectedCity} onChange={setSelectedCity} />
 

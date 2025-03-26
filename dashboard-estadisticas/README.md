@@ -1,12 +1,58 @@
-# React + Vite
+# 🌤️ Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un panel interactivo que muestra estadísticas meteorológicas por ciudad, fecha y franja horaria. Los usuarios pueden visualizar datos como temperatura, precipitación, viento y nubosidad, con opción de exportar los resultados a CSV, PDF o imagen.
 
-Currently, two official plugins are available:
+## 🖼️ Vista previa
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Dashboard Screenshot](./screenshot.png) <!-- Cambia esto si tienes una imagen -->
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Características
+
+- 🌍 Selector de idioma (Español / Inglés) con `react-i18next`
+- 🏙️ Filtro por ciudad (predefinidas con coordenadas)
+- 📅 Selector de fecha
+- 🕒 Selector de rango horario personalizado
+- 📊 Gráficas con datos meteorológicos:
+  - Temperatura
+  - Precipitación
+  - Viento
+  - Nubosidad
+- 📥 Exportación:
+  - CSV
+  - Imagen (PNG)
+  - PDF
+- 🌙 Soporte para modo claro y oscuro
+- ✅ Diseño responsive para móvil, tablet y escritorio
+
+---
+
+## 🛠️ Tecnologías usadas
+
+- **React** + **Vite**
+- **Tailwind CSS** para el diseño
+- **Chart.js** para las gráficas
+- **i18next** para la internacionalización
+- **html2canvas** + **jsPDF** para la exportación
+- **Open-Meteo API** para obtener datos climáticos
+- **Context API** para el estado global
+
+---
+
+## 📦 Instalación
+
+```bash
+git clone https://github.com/tu-usuario/weather-dashboard.git
+cd weather-dashboard
+npm install
+npm run dev
+
+
+✨ Autor
+
+Desarrollado Buski87 — Fullstack Web Developer.
+
+📝 Licencia
+
+Este proyecto está bajo la Licencia MIT.

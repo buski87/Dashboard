@@ -36,7 +36,7 @@ const ChartCard = ({ labels, data, title }) => {
   };
 
   return (
-    <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+    <div className="bg-white dark:bg-gray-800 p-4 md:p-6 rounded-lg shadow w-full">
       <h3 className="text-lg font-semibold mb-4 text-gray-800 dark:text-white">{title}</h3>
       <Line data={chartData} options={options} />
     </div>
