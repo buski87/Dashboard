@@ -1,18 +1,63 @@
 {
-    "dashboard_title": "Weather Dashboard",
-    "summary": {
-      "intro": "Today in {{city}} the average temperature is {{temp}}°C, the sky will be {{sky}} and {{rain}}"
-    },
-    "sky": {
-      "clear": "clear ☀️",
-      "partly": "partly cloudy 🌤️",
-      "cloudy": "cloudy ☁️",
-      "very": "very cloudy 🌫️"
-    },
-    "rain": {
-      "none": "no rain is expected.",
-      "light": "light rain is expected ☔.",
-      "heavy": "heavy rain is expected 🌧️."
-    }
+  "dashboard_title": "Weather Dashboard",
+  "summary": {
+    "intro": "Today in {{city}} the average temperature is {{temp}}°C, the sky will be {{sky}} and {{rain}}"
+  },
+  "sky": {
+    "clear": "clear ☀️",
+    "partly": "partly cloudy 🌤️",
+    "cloudy": "cloudy ☁️",
+    "very": "very cloudy 🌫️"
+  },
+  "rain": {
+    "none": "no rain is expected.",
+    "light": "light rain is expected ☔.",
+    "heavy": "heavy rain is expected 🌧️."
+  },
+  "export": {
+    "title": "Export data:",
+    "csv": "Download CSV",
+    "image": "Graph image",
+    "pdf": "Graph PDF"
+  },
+  "filters": {
+    "date": "Date:",
+    "city": "City:",
+    "hour_start": "Start hour",
+    "hour_end": "End hour"
+  },
+  "charts": {
+    "temperature": "Hourly Temperature - {{city}}",
+    "precipitation": "Hourly Precipitation - {{city}}",
+    "wind": "Wind Speed - {{city}} (km/h)",
+    "clouds": "Cloud Cover - {{city}} (%)"
+  },
+  "stats": {
+    "temperature": "🌡️ Temperature (°C)",
+    "precipitation": "🌧️ Precipitation (mm)",
+    "wind": "🌬️ Wind (km/h)",
+    "clouds": "☁️ Clouds (%)",
+    "avg": "🔹 Average",
+    "min": "🔽 Minimum",
+    "max": "🔼 Maximum",
+    "sum": "💧 Total"
+  },
+  "loading": "Loading data...",
+  "hourRange": {
+    "from": "From",
+    "to": "To",
+    "last6Hours": "Last 6 Hours",
+    "last12Hours": "Last 12 Hours",
+    "last24Hours": "Last 24 Hours"
+  },
+
+  "weatherDashboard": {
+    "title": "Weather Dashboard"
+  },
+
+  "sidebar": {
+    "city": "City",
+    "date": "Date"
   }
   
+}

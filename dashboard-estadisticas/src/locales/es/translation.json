@@ -1,18 +1,63 @@
 {
-    "dashboard_title": "Dashboard del Clima",
-    "summary": {
-      "intro": "Hoy en {{city}} la temperatura media es de {{temp}}°C, el cielo estará {{sky}} y {{rain}}"
-    },
-    "sky": {
-      "clear": "despejado ☀️",
-      "partly": "parcialmente nublado 🌤️",
-      "cloudy": "nublado ☁️",
-      "very": "muy nublado 🌫️"
-    },
-    "rain": {
-      "none": "no se esperan lluvias.",
-      "light": "se esperan lluvias ligeras ☔.",
-      "heavy": "se esperan lluvias intensas 🌧️."
-    }
+  "dashboard_title": "Dashboard del Clima",
+  "summary": {
+    "intro": "Hoy en {{city}} la temperatura media es de {{temp}}°C, el cielo estará {{sky}} y {{rain}}"
+  },
+  "sky": {
+    "clear": "despejado ☀️",
+    "partly": "parcialmente nublado 🌤️",
+    "cloudy": "nublado ☁️",
+    "very": "muy nublado 🌫️"
+  },
+  "rain": {
+    "none": "no se esperan lluvias.",
+    "light": "se esperan lluvias ligeras ☔.",
+    "heavy": "se esperan lluvias intensas 🌧️."
+  },
+  "export": {
+    "title": "Exportar datos:",
+    "csv": "Descargar CSV",
+    "image": "Imagen de gráficas",
+    "pdf": "PDF con gráficas"
+  },
+  "filters": {
+    "date": "Fecha:",
+    "city": "Ciudad:",
+    "hour_start": "Hora inicio",
+    "hour_end": "Hora fin"
+  },
+  "charts": {
+    "temperature": "Temperatura Horaria - {{city}}",
+    "precipitation": "Precipitación Horaria - {{city}}",
+    "wind": "Velocidad del Viento - {{city}} (km/h)",
+    "clouds": "Cobertura de Nubes - {{city}} (%)"
+  },
+  "stats": {
+    "temperature": "🌡️ Temperatura (°C)",
+    "precipitation": "🌧️ Precipitación (mm)",
+    "wind": "🌬️ Viento (km/h)",
+    "clouds": "☁️ Nubes (%)",
+    "avg": "🔹 Promedio",
+    "min": "🔽 Mínimo",
+    "max": "🔼 Máximo",
+    "sum": "💧 Total"
+  },
+  "loading": "Cargando datos...",
+
+  "hourRange": {
+    "from": "Desde",
+    "to": "Hasta",
+    "last6Hours": "Últimas 6 horas",
+    "last12Hours": "Últimas 12 horas",
+    "last24Hours": "Últimas 24 horas"
+  },
+
+  "weatherDashboard": {
+    "title": "Dashboard  Climático"
+  }, 
+
+  "sidebar": {
+    "city": "Ciudad",
+    "date": "Fecha"
   }
-  
+}
